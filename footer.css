@@ -3,11 +3,10 @@
     justify-content: center;
     width: 100%;
     background-color: #333333;
-    max-height: 10vh;
 }
 
 .footer nav {
-    width: 30%;
+    width: 33.33%;
     display: flex;
     justify-content: space-between;
     align-items: stretch;

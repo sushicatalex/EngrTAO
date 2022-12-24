@@ -1,4 +1,46 @@
 #content {
-    min-height: 90vh;
-    padding-bottom: 50px;
+    min-height: 85vh;
+    max-width: 70vw;
+    padding-left: 15vw;
+    padding-top: 5vh;
+}
+
+.logoAndText {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img .logoAndText {
+    height: 20vh;
+}
+
+h1 .logoAndText {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.announcementsAndUpcomingEvents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.announcements {
+    width: 49%;
+
+    border: 1px solid pink;
+}
+
+.upcomingEvents {
+    width: 49%;
+
+    border: 1px solid aqua;
 }
